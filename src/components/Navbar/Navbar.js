@@ -7,7 +7,7 @@ import { useAppContext, useScrollToHash, useWindowSize } from 'hooks';
 import RouterLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
-import { cssProps, media, msToNum, numToMs } from 'utils/style';
+import { cssProps, msToNum, numToMs } from 'utils/style';
 import { NavToggle } from './NavToggle';
 import styles from './Navbar.module.css';
 // import { ThemeToggle } from './ThemeToggle';

@@ -18,19 +18,34 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Hello Friend" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      You probably found me through my{' '}
+      <Link href="https://www.youtube.com/channel/UCGEY_bIcC4N6AJqup-bPlmw">
+        YouTube channel
+      </Link>
+      . The purpose of my channel is simply to document everything that I have learned
+      from living overseas for most of my life. I am in my early 30s and I miss the days
+      when the internet was a place to share useful knowledge instead of being bombarded
+      constantly with ads and salespeople, as we are today. I have come to dislike the
+      media telling me what to think and influencers supporting their biased point of view
+      to try to sell me something.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      I understand that we live in a globalized world and that we all have to make money.
+      I wont hate the player, but I will hate the game. I strongly believe that certain
+      things should be widely available and free for everyone. The ability to pack your
+      bags and move somewhere else has been the foundation of human civilization. I want
+      to share the knowledge that I have with you, with no bullsh*t.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      Many people on YouTube and Twitter today will try to sell you the idea of moving
+      abroad through fear. There are things to be afraid of today, such as CBDCs,
+      overtaxation, and overreaching governments, but these people arent telling you the
+      full story or giving you useful advice. They are simply giving you tailored advice
+      to sell you the products and services available to them, not necessarily the ones
+      you need.
     </Text>
   </Fragment>
 );
@@ -59,10 +74,10 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 secondary
                 className={styles.button}
                 data-visible={visible}
-                href="/contact"
+                href="https://cal.com/nearshoreliving/paid-consultation"
                 icon="send"
               >
-                Send me a message
+                Book a Call
               </Button>
             </div>
             <div className={styles.column}>
@@ -84,7 +99,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   placeholder={profileImgPlaceholder}
                   srcSet={[profileImg, profileImgLarge]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
+                  alt="Me realaxing after a fewd days of hiking in western China and starring at the Tibet border which I am not allowed to cross into."
                 />
                 <svg
                   aria-hidden="true"
