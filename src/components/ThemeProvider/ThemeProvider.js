@@ -119,7 +119,7 @@ export const tokenStyles = squish(`
   ${createMediaTokenProperties()}
 
   [data-theme='dark'] {
-    ${createThemeProperties(theme.dark)}
+    ${createThemeProperties(theme.light)}
   }
 
   [data-theme='light'] {
