@@ -1,54 +1,57 @@
 import backgroundSprLarge from 'assets/spr-background-large.jpg';
 import backgroundSprPlaceholder from 'assets/spr-background-placeholder.jpg';
-import imageSprBackgroundVolcanismLarge from 'assets/spr-background-volcanism-large.jpg';
-import imageSprBackgroundVolcanismPlaceholder from 'assets/spr-background-volcanism-placeholder.jpg';
-import imageSprBackgroundVolcanism from 'assets/spr-background-volcanism.jpg';
+// import imageSprBackgroundVolcanismLarge from 'assets/spr-background-volcanism-large.jpg';
+// import imageSprBackgroundVolcanismPlaceholder from 'assets/spr-background-volcanism-placeholder.jpg';
+// import imageSprBackgroundVolcanism from 'assets/spr-background-volcanism.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
-import imageSprComponentsDarkLarge from 'assets/spr-components-dark-large.png';
+// import imageSprComponentsDarkLarge from 'assets/spr-components-dark-large.png';
 import imageSprComponentsDarkPlaceholder from 'assets/spr-components-dark-placeholder.png';
-import imageSprComponentsDark from 'assets/spr-components-dark.png';
-import imageSprComponentsLightLarge from 'assets/spr-components-light-large.png';
+// import imageSprComponentsDark from 'assets/spr-components-dark.png';
+// import imageSprComponentsLightLarge from 'assets/spr-components-light-large.png';
 import imageSprComponentsLightPlaceholder from 'assets/spr-components-light-placeholder.png';
-import imageSprComponentsLight from 'assets/spr-components-light.png';
-import imageSprDesignSystemDarkLarge from 'assets/spr-design-system-dark-large.png';
+// import imageSprComponentsLight from 'assets/spr-components-light.png';
+import terminal from 'assets/terminal.jpg';
+// import imageSprDesignSystemDarkLarge from 'assets/spr-design-system-dark-large.png';
 import imageSprDesignSystemDarkPlaceholder from 'assets/spr-design-system-dark-placeholder.png';
-import imageSprDesignSystemDark from 'assets/spr-design-system-dark.png';
-import imageSprDesignSystemLightLarge from 'assets/spr-design-system-light-large.png';
+// import imageSprDesignSystemDark from 'assets/spr-design-system-dark.png';
+// import imageSprDesignSystemLightLarge from 'assets/spr-design-system-light-large.png';
 import imageSprDesignSystemLightPlaceholder from 'assets/spr-design-system-light-placeholder.png';
-import imageSprDesignSystemLight from 'assets/spr-design-system-light.png';
-import imageSprLessonBuilderDarkLarge from 'assets/spr-lesson-builder-dark-large.jpg';
+// import imageSprDesignSystemLight from 'assets/spr-design-system-light.png';
+// import imageSprLessonBuilderDarkLarge from 'assets/spr-lesson-builder-dark-large.jpg';
 import imageSprLessonBuilderDarkPlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-dark.jpg';
-import imageSprLessonBuilderLightLarge from 'assets/spr-lesson-builder-light-large.jpg';
+// import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-dark.jpg';
+// import imageSprLessonBuilderLightLarge from 'assets/spr-lesson-builder-light-large.jpg';
 import imageSprLessonBuilderLightPlaceholder from 'assets/spr-lesson-builder-light-placeholder.jpg';
-import imageSprLessonBuilderLight from 'assets/spr-lesson-builder-light.jpg';
-import videoSprMotionLarge from 'assets/spr-motion-large.mp4';
-import videoSprMotionPlaceholder from 'assets/spr-motion-placeholder.jpg';
-import videoSprMotion from 'assets/spr-motion.mp4';
-import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
-import imageSprSchema1DarkPlaceholder from 'assets/spr-schema-1-dark-placeholder.png';
-import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
-import imageSprSchema1LightLarge from 'assets/spr-schema-1-light-large.png';
-import imageSprSchema1LightPlaceholder from 'assets/spr-schema-1-light-placeholder.png';
-import imageSprSchema1Light from 'assets/spr-schema-1-light.png';
-import imageSprSchema2DarkLarge from 'assets/spr-schema-2-dark-large.png';
-import imageSprSchema2DarkPlaceholder from 'assets/spr-schema-2-dark-placeholder.png';
-import imageSprSchema2Dark from 'assets/spr-schema-2-dark.png';
-import imageSprSchema2LightLarge from 'assets/spr-schema-2-light-large.png';
-import imageSprSchema2LightPlaceholder from 'assets/spr-schema-2-light-placeholder.png';
-import imageSprSchema2Light from 'assets/spr-schema-2-light.png';
-import imageSprStoryboarderDarkLarge from 'assets/spr-storyboarder-dark-large.png';
-import imageSprStoryboarderDarkPlaceholder from 'assets/spr-storyboarder-dark-placeholder.png';
-import imageSprStoryboarderDark from 'assets/spr-storyboarder-dark.png';
-import imageSprStoryboarderLightLarge from 'assets/spr-storyboarder-light-large.png';
-import imageSprStoryboarderLightPlaceholder from 'assets/spr-storyboarder-light-placeholder.png';
-import imageSprStoryboarderLight from 'assets/spr-storyboarder-light.png';
+// import imageSprLessonBuilderLight from 'assets/spr-lesson-builder-light.jpg';
+import houseimg from 'assets/house.jpg';
+// import videoSprMotionLarge from 'assets/spr-motion-large.mp4';
+// import videoSprMotionPlaceholder from 'assets/spr-motion-placeholder.jpg';
+// import videoSprMotion from 'assets/spr-motion.mp4';
+// import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
+// import imageSprSchema1DarkPlaceholder from 'assets/spr-schema-1-dark-placeholder.png';
+// import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
+// import imageSprSchema1LightLarge from 'assets/spr-schema-1-light-large.png';
+// import imageSprSchema1LightPlaceholder from 'assets/spr-schema-1-light-placeholder.png';
+// import imageSprSchema1Light from 'assets/spr-schema-1-light.png';
+// import imageSprSchema2DarkLarge from 'assets/spr-schema-2-dark-large.png';
+// import imageSprSchema2DarkPlaceholder from 'assets/spr-schema-2-dark-placeholder.png';
+// import imageSprSchema2Dark from 'assets/spr-schema-2-dark.png';
+// import imageSprSchema2LightLarge from 'assets/spr-schema-2-light-large.png';
+// import imageSprSchema2LightPlaceholder from 'assets/spr-schema-2-light-placeholder.png';
+// import imageSprSchema2Light from 'assets/spr-schema-2-light.png';
+// import imageSprStoryboarderDarkLarge from 'assets/spr-storyboarder-dark-large.png';
+// import imageSprStoryboarderDarkPlaceholder from 'assets/spr-storyboarder-dark-placeholder.png';
+// import imageSprStoryboarderDark from 'assets/spr-storyboarder-dark.png';
+// import imageSprStoryboarderLightLarge from 'assets/spr-storyboarder-light-large.png';
+// import imageSprStoryboarderLightPlaceholder from 'assets/spr-storyboarder-light-placeholder.png';
+// import imageSprStoryboarderLight from 'assets/spr-storyboarder-light.png';
+import taximg from 'assets/tax.jpg';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
-import { Link } from 'components/Link';
+// import { Link } from 'components/Link';
 import { Meta } from 'components/Meta';
-import { SegmentedControl, SegmentedControlOption } from 'components/SegmentedControl';
-import { ThemeProvider, useTheme } from 'components/ThemeProvider';
+// import { SegmentedControl, SegmentedControlOption } from 'components/SegmentedControl';
+import { useTheme } from 'components/ThemeProvider';
 import { useAppContext } from 'hooks';
 import {
   ProjectBackground,
@@ -56,47 +59,38 @@ import {
   ProjectHeader,
   ProjectImage,
   ProjectSection,
-  ProjectSectionColumns,
+  // ProjectSectionColumns,
   ProjectSectionContent,
   ProjectSectionHeading,
   ProjectSectionText,
   ProjectTextRow,
 } from 'layouts/Project';
 import dynamic from 'next/dynamic';
-import { Fragment, useMemo } from 'react';
+import { Fragment } from 'react';
 import { media } from 'utils/style';
-import styles from './SmartSparrow.module.css';
+// import styles from './SmartSparrow.module.css';
 
-const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
-const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
+// const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
+// const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Designing the future of education';
+const title = 'Showing you how to learn on your own';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
-const roles = [
-  'Art Direction',
-  'UX and UI Design',
-  'Front End Development',
-  'Motion Design',
-];
+  'A lot of countries have rather similar laws when it comes to residency and citizenship or at least, there are some basic concepts that if you understand then you will be able to quickly digest these various laws';
+const roles = ['Residency', 'Citizenship', 'Tax Residency'];
 
 export const SmartSparrow = () => {
   const { themeId } = useTheme();
-  const { dispatch } = useAppContext();
+  // const { dispatch } = useAppContext();
 
   const isDark = themeId === 'dark';
-  const themes = ['dark', 'light'];
-
-  const handleThemeChange = index => {
-    dispatch({ type: 'setTheme', value: themes[index] });
-  };
+  // const themes = ['dark', 'light'];
 
   return (
     <Fragment>
       <ProjectContainer className="spr">
         <Meta title={title} prefix="Projects" description={description} />
         <ProjectBackground
-          opacity={isDark ? 0.5 : 0.8}
+          opacity={isDark ? 0.9 : 0.9}
           src={backgroundSpr}
           srcSet={`${backgroundSpr.src} 1080w, ${backgroundSprLarge.src} 2160w`}
           placeholder={backgroundSprPlaceholder}
@@ -104,7 +98,7 @@ export const SmartSparrow = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.smartsparrow.com/"
+          url="https://www.youtube.com/channel/UCGEY_bIcC4N6AJqup-bPlmw"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -112,11 +106,7 @@ export const SmartSparrow = () => {
             <ProjectImage
               raised
               key={themeId}
-              srcSet={
-                isDark
-                  ? [imageSprLessonBuilderDark, imageSprLessonBuilderDarkLarge]
-                  : [imageSprLessonBuilderLight, imageSprLessonBuilderLightLarge]
-              }
+              srcSet={isDark ? [terminal, terminal] : [terminal, terminal]}
               placeholder={
                 isDark
                   ? imageSprLessonBuilderDarkPlaceholder
@@ -129,15 +119,33 @@ export const SmartSparrow = () => {
         </ProjectSection>
         <ProjectSection>
           <ProjectTextRow>
-            <ProjectSectionHeading>The problem</ProjectSectionHeading>
+            <ProjectSectionHeading>Visa | Residency | Citizenship</ProjectSectionHeading>
             <ProjectSectionText>
-              In 2017, Smart Sparrow began a project to build an entirely new platform to
-              from the ground up to serve as the most powerful tool for educators to
-              create online learning experiences. The old platform was built in Flash, and
-              there were a number of user experience problems to solve in the process of
-              moving the platform to Javascript. The primary goals for the project were
-              reducing barriers to collaboration, and making the platform both easier for
-              new users, but with plenty of room to scale for advanced users.
+              Residency and citizenship are two separate legal statuses in the context of
+              immigration. Residency can either be temporary or permanent. Temporary
+              residency is granted for a limited time, such as for study, work, or
+              humanitarian reasons, while permanent residency grants an individual the
+              right to live and work in a country indefinitely. For example, a person who
+              wants to study abroad may be granted temporary residency for the duration of
+              their studies, while permanent residency, also known as a permanent resident
+              status or a permanent visa, can provide a long-term solution for individuals
+              who want to reside in a country permanently. Keep in mind that this varies
+              from country to country but in general, this how you should be thinking.
+              Some countries might also add a minimum amount of time that you must spend
+              in the country to maintain residency so keep those numbers in mind.
+              <p>
+                A tourist visa is another form of temporary residency that permits an
+                individual to stay in a country for a short period, usually for tourism or
+                business purposes. Tourist visas are granted to individuals who do not
+                intend to stay in a country for an extended period. The visa allows them
+                to visit the country for a specified time, typically up to 90 days.
+                Citizenship is a legal status that grants individuals additional rights
+                and privileges, such as the right to vote and hold public office. To
+                become a citizen, an individual must meet certain requirements, which can
+                vary depending on the country. In some countries, citizenship may be
+                obtained through birth or ancestry, while in others, it may be acquired
+                through naturalization.
+              </p>
             </ProjectSectionText>
           </ProjectTextRow>
         </ProjectSection>
@@ -145,11 +153,7 @@ export const SmartSparrow = () => {
           <ProjectSectionContent>
             <Image
               key={themeId}
-              srcSet={
-                isDark
-                  ? [imageSprComponentsDark, imageSprComponentsDarkLarge]
-                  : [imageSprComponentsLight, imageSprComponentsLightLarge]
-              }
+              srcSet={isDark ? [taximg, taximg] : [taximg, taximg]}
               placeholder={
                 isDark
                   ? imageSprComponentsDarkPlaceholder
@@ -158,23 +162,30 @@ export const SmartSparrow = () => {
               alt={`A set of ${themeId} themed components for the aero design system`}
               sizes="100vw"
             />
+
             <ProjectTextRow>
-              <SegmentedControl
-                currentIndex={themes.indexOf(themeId)}
-                onChange={handleThemeChange}
-              >
-                <SegmentedControlOption>Dark theme</SegmentedControlOption>
-                <SegmentedControlOption>Light theme</SegmentedControlOption>
-              </SegmentedControl>
-            </ProjectTextRow>
-            <ProjectTextRow>
-              <ProjectSectionHeading>The aero design system</ProjectSectionHeading>
+              <ProjectSectionHeading>Tax Residency</ProjectSectionHeading>
               <ProjectSectionText>
-                To streamline the design process across designers and engineers for such a
-                large project, it was important to lay the foundations with a strong,
-                flexible design system that could evolve during the product’s development
-                cycle. This would inform both the aesthetics and user experience across
-                the product itself as well as the website and marketing material.
+                <p>Remember these few rules: </p>
+                <ul>
+                  <li>You can be a tax resident in multiple countries</li>
+                  <li>
+                    Countries GIVE you the status of tax resident, its not something that
+                    you can apply for.
+                  </li>
+                  <li>
+                    Its your job to prove to the tax agency that you are not a tax
+                    resident. The tax agency will always want to make you a tax resident.
+                  </li>
+                  <li>
+                    You can be a tax resident in a country without living or being a
+                    resident.
+                  </li>
+                  <li>
+                    Your home country might have laws against you paying no tax, not
+                    having a tax residency or living in a tax haven.
+                  </li>
+                </ul>
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
@@ -184,11 +195,7 @@ export const SmartSparrow = () => {
             <Image
               raised
               key={themeId}
-              srcSet={
-                isDark
-                  ? [imageSprDesignSystemDark, imageSprDesignSystemDarkLarge]
-                  : [imageSprDesignSystemLight, imageSprDesignSystemLightLarge]
-              }
+              srcSet={isDark ? [houseimg, houseimg] : [houseimg, houseimg]}
               placeholder={
                 isDark
                   ? imageSprDesignSystemDarkPlaceholder
@@ -198,16 +205,13 @@ export const SmartSparrow = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <ProjectSectionHeading>Design system docs</ProjectSectionHeading>
+              <ProjectSectionHeading>More content coming soon....</ProjectSectionHeading>
               <ProjectSectionText>
-                A design system is useless if no one knows how to use it, so we put
-                together a comprehensive documentation website to cover principles, ux,
-                accessibility, and component guidelines for designers and engineers
-                working with the system.
+                Check out our blog or youtube channel for more info!
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
-        </ProjectSection>
+          {/* </ProjectSection>
         <ThemeProvider themeId="dark" data-invert>
           <ProjectSection
             backgroundOverlayOpacity={0.5}
@@ -519,6 +523,7 @@ export const SmartSparrow = () => {
               </ProjectSectionText>
             </ProjectTextRow>
           </ProjectSectionContent>
+        </ProjectSection> */}
         </ProjectSection>
       </ProjectContainer>
       <Footer />
