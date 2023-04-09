@@ -1,10 +1,10 @@
 export const navLinks = [
   {
-    label: 'Projects',
+    label: 'Services',
     pathname: '/#project-1',
   },
   {
-    label: 'Details',
+    label: 'About',
     pathname: '/#details',
   },
   {
@@ -20,17 +20,12 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://twitter.com/pohwillbenice',
     icon: 'twitter',
   },
   {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
-  },
-  {
-    label: 'Github',
-    url: 'https://github.com/HamishMW',
-    icon: 'github',
+    label: 'Youtube',
+    url: 'https://www.youtube.com/channel/UCGEY_bIcC4N6AJqup-bPlmw',
+    icon: 'youtube',
   },
 ];

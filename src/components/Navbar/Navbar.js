@@ -10,7 +10,7 @@ import { useEffect, useRef, useState } from 'react';
 import { cssProps, media, msToNum, numToMs } from 'utils/style';
 import { NavToggle } from './NavToggle';
 import styles from './Navbar.module.css';
-import { ThemeToggle } from './ThemeToggle';
+// import { ThemeToggle } from './ThemeToggle';
 import { navLinks, socialLinks } from './navData';
 
 export const Navbar = () => {
@@ -21,7 +21,7 @@ export const Navbar = () => {
   const { route, asPath } = useRouter();
   const windowSize = useWindowSize();
   const headerRef = useRef();
-  const isMobile = windowSize.width <= media.mobile || windowSize.height <= 696;
+  // const isMobile = windowSize.width <= media.mobile || windowSize.height <= 696;
   const scrollToHash = useScrollToHash();
 
   useEffect(() => {
@@ -190,11 +190,11 @@ export const Navbar = () => {
               </RouterLink>
             ))}
             <NavbarIcons />
-            <ThemeToggle isMobile />
+            {/* <ThemeToggle isMobile /> */}
           </nav>
         )}
       </Transition>
-      {!isMobile && <ThemeToggle data-navbar-item />}
+      {/* {!isMobile && <ThemeToggle data-navbar-item />} */}
     </header>
   );
 };
