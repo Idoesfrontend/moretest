@@ -85,7 +85,7 @@ export const Home = () => {
         title="Unlock The World & Break Free"
         description="Discover a world of freedom with our tips on second residencies, citizenships, and offshore strategies. Our transparent advice empowers you to create the life you've always wanted."
         buttonText="Show me"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/articles/test"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -106,7 +106,7 @@ export const Home = () => {
         title="Global Money, Local Values"
         description="Our Opinions on investing overseas without the usual Bullsh*t. We give you the facts and you make up your own mind"
         buttonText="Learn more"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="/articles/test/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -130,7 +130,7 @@ export const Home = () => {
         title="Premium Content?"
         description="I love money but I strongly believe that this sort of information should be free regardless of income level. Here is how you can help."
         buttonText="Support us"
-        buttonLink="/projects/slice"
+        buttonLink="/articles/test/"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
