@@ -52,7 +52,7 @@ import { Image } from 'components/Image';
 import { Meta } from 'components/Meta';
 // import { SegmentedControl, SegmentedControlOption } from 'components/SegmentedControl';
 import { useTheme } from 'components/ThemeProvider';
-import { useAppContext } from 'hooks';
+// import { useAppContext } from 'hooks';
 import {
   ProjectBackground,
   ProjectContainer,
@@ -65,7 +65,7 @@ import {
   ProjectSectionText,
   ProjectTextRow,
 } from 'layouts/Project';
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 import { Fragment } from 'react';
 import { media } from 'utils/style';
 // import styles from './SmartSparrow.module.css';
@@ -83,7 +83,6 @@ export const SmartSparrow = () => {
   // const { dispatch } = useAppContext();
 
   const isDark = themeId === 'dark';
-  // const themes = ['dark', 'light'];
 
   return (
     <Fragment>
