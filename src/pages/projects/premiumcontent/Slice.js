@@ -47,6 +47,7 @@ export const Slice = () => {
                 <script
                   src="https://donorbox.org/widget.js"
                   paypalExpress="false"
+                  defer
                 ></script>
                 <iframe
                   src="https://donorbox.org/embed/nearshoreliving-donations?default_interval=o"
