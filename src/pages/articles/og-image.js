@@ -5,6 +5,7 @@ const { createHash } = require('crypto');
 
 export async function generateOgImage(props) {
   const params = new URLSearchParams(props);
+
   const url = `file:${path.join(
     process.cwd(),
     `src/pages/articles/og-image.html?${params}`
@@ -23,7 +24,7 @@ export async function generateOgImage(props) {
     // file does not exists, so we create it
   }
 
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.setViewport({ width: 1200, height: 630 });
   await page.goto(url, { waitUntil: 'networkidle0' });
