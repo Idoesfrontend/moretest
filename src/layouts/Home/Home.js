@@ -78,6 +78,26 @@ export const Home = () => {
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
       <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={1}
+        title="Premium Content?"
+        description="I love money but I strongly believe that this sort of information should be free regardless of income level. Here is how you can help."
+        buttonText="Support us"
+        buttonLink="/projects/premiumcontent/"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              srcSet: [sliceTexture, sliceTextureLarge],
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
         id="project-1"
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
@@ -102,11 +122,11 @@ export const Home = () => {
         alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
-        index={2}
+        index={3}
         title="Global Money, Local Values"
         description="Our Opinions on investing overseas without the usual Bullsh*t. We give you the facts and you make up your own mind"
         buttonText="Learn more"
-        buttonLink="/articles/test/"
+        buttonLink="/articles/donate/"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -122,26 +142,7 @@ export const Home = () => {
           ],
         }}
       />
-      <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
-        index={3}
-        title="Premium Content?"
-        description="I love money but I strongly believe that this sort of information should be free regardless of income level. Here is how you can help."
-        buttonText="Support us"
-        buttonLink="/articles/test/"
-        model={{
-          type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
-          textures: [
-            {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
-            },
-          ],
-        }}
-      />
+
       <Profile
         sectionRef={details}
         visible={visibleSections.includes(details.current)}
