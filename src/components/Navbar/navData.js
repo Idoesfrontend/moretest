@@ -1,6 +1,6 @@
 export const navLinks = [
   {
-    label: 'Services',
+    label: 'NearShore',
     pathname: '/#project-1',
   },
   {
@@ -8,9 +8,14 @@ export const navLinks = [
     pathname: '/#details',
   },
   {
+    label: 'Articles',
+    pathname: 'https://articles.nearshoreliving.com',
+  },
+  {
     label: 'Premium Content',
     pathname: '/projects/premiumcontent/',
   },
+
   // {
   //   label: 'Contact',
   //   pathname: '/contact',
