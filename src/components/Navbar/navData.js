@@ -22,7 +22,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/pohwillbenice',
+    url: 'https://twitter.com/nearshoreliving',
     icon: 'twitter',
   },
   {
