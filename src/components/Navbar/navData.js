@@ -8,13 +8,10 @@ export const navLinks = [
     pathname: '/#details',
   },
   {
-    label: 'Articles',
-    pathname: 'https://articles.nearshoreliving.com',
+    label: 'shop',
+    pathname: 'https://shop.nearshoreliving.com',
   },
-  {
-    label: 'Premium Content',
-    pathname: '/projects/premiumcontent/',
-  },
+  
 
   // {
   //   label: 'Contact',
