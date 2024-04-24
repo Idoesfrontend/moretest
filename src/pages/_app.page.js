@@ -14,8 +14,30 @@ import { useRouter } from 'next/router';
 import { Fragment, createContext, useEffect, useReducer } from 'react';
 import { msToNum } from 'utils/style';
 import { ScrollRestore } from '../layouts/App/ScrollRestore';
+const chrome = require('@sparticuz/chromium');
+const puppeteer = require('puppeteer-core');
+const production = process.env.NODE_ENV === 'production';
+
 
 export const AppContext = createContext({});
+
+const getPage = async () => {
+  const browser = await puppeteer.launch(
+      production ? {
+          args: chrome.args,
+          defaultViewport: chrome.defaultViewport,
+          executablePath: await chrome.executablePath(),
+          headless: 'new',
+          ignoreHTTPSErrors: true
+      } : {
+          headless: 'new',
+          executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+      }
+  );
+  const page = await browser.newPage();
+  return page;
+};
+
 
 const repoPrompt = `
 __  __  __
